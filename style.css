@@ -1,0 +1,163 @@
+
+body{
+    line-height: 1.6em;
+    overflow-x: hidden;
+}
+.nav1{
+    background-image: linear-gradient(white,lightgrey);
+}
+.navbar .nav-link{
+    font-size: 18px;
+    color: grey !important;
+}
+a.nav-link:hover {
+    color: #00bac6 !important; 
+    border-bottom: 2px solid #00bac6;
+}
+.nav2{
+    background-color: #373836;
+   /* box-shadow:20px 20px 50px 15px grey;*/
+}
+.nav2 img{
+    width: 100px;
+    height: auto;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.carousel-caption{
+    width: 50%;
+    margin: auto;
+    margin-bottom: 10%;
+    border-radius: 10% 10%;
+    box-sizing: border-box;
+}
+.carousel{
+    margin-bottom: 5%;
+}
+.carousel-caption h2{
+    font-size: 60px;
+    background-size: 100% 100%;
+    width: fit-content;
+    padding: 8px;
+}
+.lbg{
+    color: #38BFF0;
+    background-color: rgba(233, 233, 233,0.5);
+}
+.dbg{
+    background-color:rgba(56, 191, 240,0.5) ;
+}
+.carousel-caption p{
+    font-size: 15px;
+    font-family: 'PT Sans', sans-serif;
+}
+.carousel-indicators li {
+    width: 15px !important;
+    height: 15px !important;
+    border-radius: 100% 100%;
+    background-color: transparent;
+}
+.carousel-indicators  .active{
+    background-color: #00bac6 !important ;
+}
+.titre{
+    text-align: center;
+    color: #00bac6;
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 5%;
+}
+.desc{
+    text-align: center;
+    color: grey;
+   /* background-color: #63b1d8;
+    background-size: 100% 100%;*/
+    box-sizing: border-box;
+}
+.desc2{
+   /* padding: 15%;
+    width: 540px;
+    text-align: center;
+    color: grey;
+    height: 400px;
+    background-image: url('17395.jpg');
+    background-size: 100% 100%;*/
+    color: white;
+    padding: 15%;
+    background-color: #38BFF0;
+    box-sizing: border-box;
+    height: 100%;
+    text-align: center;
+    font-size: 24px;
+    font-weight: lighter;
+}
+.cb{
+    margin-bottom: 0%;
+}
+.eq{
+    margin-bottom: 5%;
+}
+.imdr{
+    width: 300px;
+    border: 5px solid #00bac6;
+    border-radius: 100%;
+    margin-bottom: 5%;
+}
+.eq+p{
+    color: #9a9a9a;
+}
+.plus{
+    width: 50%;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    overflow: auto !important;
+    background-color: antiquewhite;
+}
+.services{
+    position: relative;
+    background-image: url('serbg.jpg');
+    background-size: 100% 100%;
+}
+.marg{
+    margin-bottom: 5% !important;
+    margin-right: 0% !important;
+    margin-left: 0% !important;
+}
+.card-deck{
+    width: 100%;
+
+}
+.card{
+    background-color: transparent !important;
+}
+#contact form{
+    width: 60%;
+    margin: auto;
+}
+#rdv{
+    padding: 5%;
+    background-image: url('rdvbg.jpg');
+    background-size: 100% 100%;
+}
+#rdv form{
+    width: 40% !important;
+    margin-left: 10%;
+}
+#rdv form input, #rdv form textarea{
+    background-color: transparent;
+    border-color: #00bac6;
+}
+footer{
+    background-color: #212529;
+    color: grey;
+}
+footer table{
+    color:grey !important;
+}
+.modal-header{
+    background-color: #00bac6;
+}
+.shay{
+    box-shadow: 10px 10px 63px -9px rgba(0,0,0,0.75);
+}
